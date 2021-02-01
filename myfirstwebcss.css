@@ -1,0 +1,143 @@
+#main {
+	background: #d2d7d9 ;
+	margin: 0 3px;
+	color: #575757;
+	font-family: cursive,sans-serif,fantasy ;
+	margin-bottom: 10px ;
+}
+#navbar{
+	word-spacing: 2px;
+	line-height: 30px;
+	font-family: 'Grenze Gotisch', cursive;
+	letter-spacing: 5px;
+	font-size: 30px;
+	margin: 0px 0px 0px -3px;
+	box-sizing: border-box;
+    border-bottom: 5px solid #eb2d2d;
+    border-radius: 5px;
+    border-left: 5px solid #eb2d2d; 
+    color: white;
+    padding: 0.5px 0px 2px 2px;
+	background: #5d4954;
+	box-shadow: 0px 10px 25px orange;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.navlinks li{
+	list-style: none;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#navbar a{
+    font-style: italic;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: cursive;
+   }
+
+#navbar a:hover{
+	color: white;
+	font-family: sans-serif;
+
+}
+.heading1{
+	color: red;
+	margin: 0px ;
+	text-align: center;
+	padding-right: 30px;
+	
+}
+
+.heading3{
+	color: #1c1e47;
+    text-align: center;
+    text-decoration: underline black;
+ }
+
+#imgpara{
+    margin-left: 20px;
+}
+
+.image{
+	display: inline;
+	border: 3px solid black;
+	padding: 5px;
+	margin: 10px;
+    border-radius: 5px;
+    background-color: #bdbdbd;
+    box-shadow: 5px 5px 20px black;
+}
+ 
+ .city{
+ 	margin-left: -25px;
+ 	border: 3px black;
+ 	border-left: 10px orange;
+ 	box-sizing: border-box;
+ 	box-shadow: -3px 10px 18px grey;
+ 	padding: 25px;
+ 	border-radius: 10px;
+ 	
+ } 
+ 
+ .cityhead{
+ 	font-family: "lucida grande" sans-serif;
+ 	font-variant: small-caps;
+ 	color: #212121;
+ 	text-shadow: 8px 5px 10px #363636;
+ 	float:;
+ }
+
+.image2{
+	margin: 0px 130px;
+	border:  3px solid black;
+	border-radius: 5px; 
+	padding: 3px;
+	background-color: #bdbdbd;
+	box-shadow: 5px 5px 20px black;
+}
+
+
+#foot {
+ 	border-bottom: 5px grey;
+ 	text-align: center;
+ 	display: flex;
+ 	flex-direction: column-reverse;
+ 	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1040px){
+	body{
+		overflow-x: hidden;
+	}
+	.navlinks{
+        width: 65%;
+	}
+     
+    .city{
+	    display: flex;
+	 	flex-direction: row;
+	 	justify-content: space-between;
+	 	align-items: center;
+    }
+    
+    .citypara{
+    	margin-left: 30px
+
+    }
+    .imgcity{
+	    display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+    }
+}	
